@@ -1,5 +1,9 @@
 syntax on
-colorscheme codeschool 
+colorscheme codeschool
+set smartcase
+set expandtab
+set tabstop=4
+set shiftwidth=4
 
 set nocompatible
 filetype off
@@ -7,10 +11,10 @@ set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
-Plugin 'tpope/vim-fugitive'
-Plugin 'easymotion/vim-easymotion'
 Plugin 'scrooloose/syntastic'
-Plugin 'pangloss/vim-javascript'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'mattn/emmet-vim'
+Plugin 'tpope/vim-surround'
 
 call vundle#end()
 filetype plugin indent on
