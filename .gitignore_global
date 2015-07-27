@@ -17,4 +17,5 @@ Thumbs.db
 /build
 /jspm_packages
 /node_modules
+/bower_components
 /dist
